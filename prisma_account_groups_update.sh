@@ -25,6 +25,7 @@ export PRISMAAPI=$(curl -k -s --request POST --url https://api.prismacloud.io/lo
 
 #  The "description" and "name" require adding literal quotation marks surrounding the expanded variables". The other single and double quote syntax, when using variables is very cURL specific.
 #  Command should output a "200" status, else something went wrong.
+#  "accountIds" and "name" are REQUIRED.  "description" is OPTIONAL.
 curl -w "%{http_code}\n" -k --request PUT \
   --url https://api.prismacloud.io/cloud/group/$ACCTGRPID \
   --header 'content-type: application/json' \
