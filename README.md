@@ -2,7 +2,7 @@
 
 #### This is a temporary repo.  Eventually this will live elsewhere.
 
-his repo will contain a selection of BASH scripts that leverage the Prisma Cloud API to perform specific functions.
+This repo will contain a selection of BASH scripts that leverage the Prisma Cloud API to perform specific functions.
 
 While Palo Alto's Prisma Cloud API documentation is quite extensive, there are a number of gotchas I've encountered along the way, which I try to cover in the comments of my scripts.
 
